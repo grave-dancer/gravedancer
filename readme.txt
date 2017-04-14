@@ -13,3 +13,7 @@ One FTDI FT232RL is used for flashing the MSP430F5529 and MSP430FR5994 through U
 Target Operating Systems:
 Linux (Ubuntu/Debian)
 Windows 7/8/10
+
+hardware/ - KiCad Schematics/PCB files
+firmware/ - MSP430FR5994 + MSP430FR5529 related firmware
+software/ - Software Client in Python
