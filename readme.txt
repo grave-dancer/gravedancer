@@ -1,19 +1,36 @@
-Samaras's Gravedancer10 board based loosely on Travis Goodspeed's Facedancer21. (USB Steganography)
-Gravedancer is a USB MSC device that offers hardware steganography + cryptography.
+Samaras's Gravedancer10 board based loosely on Travis Goodspeed's Facedancer21. It is designed for audio.
 
-One MSP430FR5994 is used for data manipulations, 
-with AES256 for Crypto, 
-LEA Module + HW MPY for Stegano, 
-and SPI+DMA for SD Card Access.
+=====================================================================================
 
-One MSP430F5529 is used for MSC device class communication between SD card and computer.
+Software Features:
+Open Source Software: Anyone can write and rewrite their own algorithm for it.
 
-One FTDI FT232RL is used for flashing the MSP430F5529 and MSP430FR5994 through USB client.
+Embedded Audio Cryptography: Provides fast Hardware-Accelerated AES-256 encryption of audio streams.
 
-Target Operating Systems:
-Linux (Ubuntu/Debian)
-Windows 7/8/10
+Embedded Audio Steganography: Provides fast FFT based Audio "Hacking" for data hiding.
 
-hardware/ - KiCad Schematics/PCB files
-firmware/ - MSP430FR5994 + MSP430FR5529 related firmware
-software/ - Software Client in Python
+Embedded Audio/Voice Augmentation: Provides fast transformation and filtering of audio streams.
+
+Embedded Audio Capture/Playback: Can save and play back recorded audio.
+
+=====================================================================================
+
+Hardware Features:
+Open Source Hardware: Anyone can improve it by rebuilding it with their own hardware.
+
+Easy to Build: Anyone can build this with a soldering iron, some chips, and a PCB.
+
+No Software Required on Phone: You don't need to install any encryption software on the phone.
+
+No Special Phone Required: This will work with prehistoric cellphones.
+
+=====================================================================================
+
+The term "phreaking" comes from the idea that this is meant to be used with telephony.
+Gravekeeper10 allows you to easily perform hardware encryption on any cell phone for protecting conversations.
+
+This, in effect, hides your conversations from surveillance, and possible wiretapping.
+
+The idea is to allow you to make encrypted phone calls without revealing that you're using encryption.
+
+
